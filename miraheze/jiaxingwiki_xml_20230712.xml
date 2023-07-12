@@ -3,7 +3,7 @@
     <sitename>佳兴广播站 Wiki</sitename>
     <dbname>jiaxingwiki</dbname>
     <base>https://jiaxing.miraheze.org/wiki/%E9%A6%96%E9%A1%B5</base>
-    <generator>MediaWiki 1.39.3</generator>
+    <generator>MediaWiki 1.39.4</generator>
     <case>first-letter</case>
     <namespaces>
       <namespace key="-2" case="first-letter">媒体文件</namespace>
@@ -11324,6 +11324,133 @@ On February 23 2015, Wang Ximing and Lei Yangjuan held a wedding in Qidong Izhou
 &lt;/infobox&gt;&lt;noinclude&gt;{{documentation}}&lt;/noinclude&gt;</text>
       <sha1>9vrxuozuwd822nu4zsh352wchy5pkvq</sha1>
     </revision>
+    <revision>
+      <id>7126</id>
+      <parentid>6923</parentid>
+      <timestamp>2023-07-11T04:52:19Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7126</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3053" sha1="105rzsfq7umsn1ehbd1333qvvlhmprp" xml:space="preserve">&lt;infobox&gt;
+  &lt;title source="title"&gt;
+    &lt;default&gt;{{PAGENAME}}&lt;/default&gt;
+  &lt;/title&gt;
+  &lt;image source="image"&gt;
+    &lt;caption source="caption1"/&gt;
+  &lt;/image&gt;
+  &lt;data source="chinese_name"&gt;
+    &lt;label&gt;中文名&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="english_name"&gt;
+    &lt;label&gt;英文名&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="nickname"&gt;
+    &lt;label&gt;别名&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="gender"&gt;
+    &lt;label&gt;性别&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="nationality"&gt;
+    &lt;label&gt;国籍&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="language"&gt;
+    &lt;label&gt;使用语言&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="minzu"&gt;
+    &lt;label&gt;民族&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="birthplace"&gt;
+    &lt;label&gt;出生地&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="birthday"&gt;
+    &lt;label&gt;出生日期&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="death_date"&gt;
+    &lt;label&gt;逝世日期&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="political_status"&gt;
+    &lt;label&gt;政治面貌&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="hometown"&gt;
+    &lt;label&gt;籍贯&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="profession"&gt;
+    &lt;label&gt;职业&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;data source="college"&gt;
+    &lt;label&gt;毕业院校&lt;/label&gt;
+  &lt;/data&gt;
+  &lt;group collapse="open" &gt;
+    &lt;header&gt;详细信息&lt;/header&gt;
+    &lt;data source="height"&gt;
+      &lt;label&gt;身高&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="weight"&gt;
+      &lt;label&gt;体重&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="waistline"&gt;
+      &lt;label&gt;腰围&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="constellation"&gt;
+      &lt;label&gt;星座&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="works"&gt;
+      &lt;label&gt;主要视频&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="achievements"&gt;
+      &lt;label&gt;主要成就&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="representative_work"&gt;
+      &lt;label&gt;相关视频&lt;/label&gt;
+    &lt;/data&gt;
+  &lt;/group&gt;
+  &lt;group collapse="open"&gt;
+    &lt;header&gt;联系方式&lt;/header&gt;
+    &lt;data source="email"&gt;
+      &lt;label&gt;电子邮件&lt;/label&gt;
+      &lt;format&gt;[mailto:{{{email|}}} {{{email|}}}]&lt;/format&gt;
+    &lt;/data&gt;
+    &lt;data source="website"&gt;
+      &lt;label&gt;个人网站&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="qq"&gt;
+      &lt;label&gt;QQ&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="wechat"&gt;
+      &lt;label&gt;微信&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="phone_number"&gt;
+      &lt;label&gt;电话号码&lt;/label&gt;
+    &lt;/data&gt;
+    &lt;data source="youtube"&gt;
+      &lt;label&gt;YouTube&lt;/label&gt;
+      &lt;format&gt;{{#if:{{{youtube|}}}|[https://youtube.com/@{{{youtube|}}} @{{{youtube|}}}] }}&lt;/format&gt;
+    &lt;/data&gt;
+    &lt;data source="facebook"&gt;
+      &lt;label&gt;Facebook&lt;/label&gt;
+      &lt;format&gt;[https://www.facebook.com/{{{facebook|}}} {{{facebook|}}}]&lt;/format&gt;
+    &lt;/data&gt;
+    &lt;data source="twitter"&gt;
+      &lt;label&gt;Twitter&lt;/label&gt;
+      &lt;format&gt;&lt;div class="twitter-follow-button" data-href="https://twitter.com/{{{twitter}}}" data-show-count="false"&gt;@{{{twitter}}}&lt;/div&gt;&lt;/format&gt;
+    &lt;/data&gt;
+    &lt;data source="instagram"&gt;
+      &lt;label&gt;Instagram&lt;/label&gt;
+      &lt;format&gt;[https://www.instagram.com/{{{instagram|}}} @{{{instagram|}}}]&lt;/format&gt;
+    &lt;/data&gt;
+    &lt;data source="tiktok"&gt;
+      &lt;label&gt;TikTok&lt;/label&gt;
+      &lt;format&gt;[https://www.tiktok.com/@{{{tiktok|}}} @{{{tiktok|}}}]&lt;/format&gt;
+    &lt;/data&gt;
+  &lt;/group&gt;
+&lt;/infobox&gt;&lt;noinclude&gt;{{documentation}}&lt;/noinclude&gt;</text>
+      <sha1>105rzsfq7umsn1ehbd1333qvvlhmprp</sha1>
+    </revision>
   </page>
   <page>
     <title>文件:Wangzhaochu.jpg</title>
@@ -13017,6 +13144,179 @@ __索引__
 [[Category:NoCopy]]
 {{Navbox_Total|ShouldIndex=1}}</text>
       <sha1>r4kkp16j19zcxnjwqs5ypo7y1vuho7a</sha1>
+    </revision>
+    <revision>
+      <id>7090</id>
+      <parentid>7056</parentid>
+      <timestamp>2023-06-25T14:15:58Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7090</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7070" sha1="48475ea4m7bplasqhzjubk1xrztds6t" xml:space="preserve">&lt;div class="nocopy"&gt;{{Celebrity
+  | title=王钊楚
+  | image=Wangzhaochu.jpg
+  | caption=王钊楚在鼎山，摄于2021年2月18日(5岁)
+  | chinese_name=王钊楚
+  | english_name=Wang Zhaochu
+  | nickname=楚楚、小汤哥
+  | gender=男
+  | nationality={{China}}
+  | language=汉语（普通话、[[祁东]]方言）
+  | minzu=汉
+  | birthday={{Birthdate|2015-10-28}}/九月十六
+  | hometown=湖南省衡阳市
+  | youtube=wangzhaochu2015
+  | birthplace=湖南省衡阳市[[祁东县]]
+  | profession=学生
+  | constellation=天蝎座
+  | representative_work=《[[:File:【王钊楚】好汉歌|好汉歌]]》（2017）}}&lt;/div&gt;
+'''王钊楚'''，2015年10月28日出生于'''[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]'''，籍贯'''[[w:zh:湖南省|湖南]][[w:zh:衡阳市|衡阳]]'''，是'''[[王喜明]]'''和'''[[雷阳娟]]'''的儿子，{{Age|birth=2015-10-28}}。2019年3月起就读于太和堂小精灵幼儿园，后于2020年9月转至祁东县楚源幼儿园（莲花园）读幼儿园大班，2021年7月6日从[[祁东县]]楚源幼儿园毕业，2021年9月起，王钊楚开始就读于'''祁东县船山实验小学104班'''。
+== 生平经历 ==
+2015年10月28日，出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]中医医院。
+
+2019年3月起，就读于太和堂小精灵幼儿园。
+
+2020年9月，转至祁东县楚源幼儿园（莲花园）读幼儿园大班。
+
+2021年7月6日，从[[祁东县]]楚源幼儿园毕业。
+
+2021年9月，就读于祁东县船山实验小学104班。
+==成长视频==
+记录王钊楚的视频在[[佳兴广播站]]的YouTube频道&lt;ref&gt;[https://www.youtube.com/@jiaxingvideos/playlists?view=50&amp;sort=dd&amp;shelf_id=3 王钊楚视频专辑 Wang Zhaochu's Videos]，[https://www.youtube.com/@jiaxingvideos/videos 佳兴广播站YouTube频道]，YouTube&lt;/ref&gt;和[[王喜明]]的YouTube频道&lt;ref&gt;[https://www.youtube.com/@wangximing1985 王喜明的YouTube频道]，YouTube&lt;/ref&gt;均有上传。王喜明的YouTube频道以上传王钊楚的日常小视频&lt;ref&gt;[https://youtube.com/@wangximing1985/shorts 王钊楚YouTube Shorts视频]，YouTube Shorts&lt;/ref&gt;和游戏视频&lt;ref name=":0"&gt;[https://www.youtube.com/playlist?list=PLvB9NujQfH9k-oUwZt2qo4pUlvFyxqkXm 王钊楚游戏视频合集]，YouTube播放列表&lt;/ref&gt;为主。
+===纪录片、短片系列===
+{| class="wikitable"
+! 标题 !! 年份 !! 类型 !! 时长
+|-
+| [[好汉歌]] || 2017 || 卡拉OK || 4分钟
+|-
+| [[王钊楚祁东一日游]] || 2017 || Vlog || 27分钟
+|-
+| [[王钊楚游石门水库]] || 2017 || Vlog || 23分钟
+|-
+| [[王钊楚(纪录片)|王钊楚]] || 2017 || 纪录片 || 62分钟
+|-
+| [[2017年王钊楚暑假七天乐]]（5集） || 2017 || 长Vlog|| 188分钟（3小时）
+|-
+| [[王钊楚的日常]]（3集） || 2017 || Vlog || 59分钟（1小时）
+|-
+| [[游深圳]]（2018年5月） || 2018 || Vlog || 3分钟
+|-
+| [[游深圳博物馆]] || 2018 || Vlog || 6分钟
+|-
+| [[王钊楚祁东街心公园商场一日游]] || 2019 || Vlog || 14分钟
+|-
+| [[王钊楚去祁东火车站接爸爸妈妈]] || 2019 || Vlog || 9分钟
+|-
+| [[王钊楚微脱口秀]] || 2019 || Vlog || 2分钟
+|-
+| [[2019年王喜明和王钊楚游祁东水漓坊水上乐园]] || 2019 || Vlog || 13分钟
+|-
+| [[王钊楚2020超长寒假五天乐]] || 2020 || 长Vlog || 90分钟
+|-
+| [[王钊楚的一天]](多集) || 2020 || 照片合集 || 8分钟
+|}
+
+===文艺表演===
+{| class="wikitable"
+! 标题 !! 日期 !! 地点
+|-
+| [[蓝天下的爱]] || 2019年6月1日 || [[祁东县]]太和堂小精灵幼儿园
+|-
+| [[我们大家做的好]] || 2019年6月1日 || [[祁东县]]太和堂小精灵幼儿园
+|-
+| [[国家]] || 2021年1月1日 || [[祁东县]]楚源幼儿园（莲花园）
+|-
+| [[就是我]] || 2021年6月1日 || [[祁东县]]楚源幼儿园（莲花园）
+|}
+===儿歌系列===
+《[[爱我你就抱抱我|王钊楚：爱我你就抱抱我]]》
+
+《[[:File:【儿歌】王钊楚 春天的风 Spring Wind Official MV|王钊楚：春天的风]]》
+
+《[[:File:【王钊楚のMV】ドラえもん 哆啦A梦（日本語）|王钊楚：哆啦A梦]]》
+
+===照片/视频合集===
+{| class="wikitable"
+|+王钊楚音乐视频合辑
+! 标题 !! 年份 !! 备注
+|-
+| '''[[爱我你就抱抱我]]''' || 2017 || 王钊楚第一部MV，'''2岁合集'''
+|-
+| [[哆啦A梦]]（日语） || 2017 || 中日双语字幕
+|-
+| [https://odysee.com/@JiaxingVideos:f/WangZhaochu_Let%27s-Sway-Twin-Oars_20170722:0 让我们荡起双桨] || 2017 || 慢镜头合集
+|-
+| [[随他吧]]（25种语言） || 2017 || 多语言字幕
+|-
+| [[小白兔乖乖]] || 2017 || 
+|-
+| [[两只老虎]] || 2017 || 
+|-
+| '''[[明天会更好]]''' || 2018 || '''3岁合集'''
+|-
+| [[幸福拍手歌]] || 2019 || 
+|-
+| '''[[我是小宝贝]]''' || 2019 || '''4岁合集'''
+|-
+| [[春天的风]] || 2020 || 《[[王钊楚超长寒假]]》电影主题曲
+|-
+| '''[[Schnappi（小鳄鱼之歌）|小鳄鱼之歌]]（德语）''' || 2020 || '''5岁合集'''
+|-
+| [[一声恭喜大家好]] || 2021 ||
+|-
+| [[说不出再见]]（粤语） || 2021 || 
+|-
+| [[男儿当自强]]（粤语） || 2021 || 
+|-
+| [[慈母心]]（闽南语） || 2021 || 母子照片合集
+|-
+| [[欢喜就好]]（闽南语） || 2021 || 
+|-
+| [[父子情深]]（闽南语） || 2021 || 父子照片合集
+|-
+| [[真的爱你]]（粤语） || 2021 || 5岁照片合集
+|-
+| [[好好生活就是美好生活]] || 2022 || 2021年度照片合集
+|-
+| [[这世界那么多人]] || 2022 || 2019-2021年照片合集
+|-
+| [[爱情恰恰恰]]（闽南语） || 2022 || 舞蹈合集
+|-
+| [[爱拼才会赢(王钊楚版)|爱拼才会赢]]（闽南语） || 2022 || 舞蹈合集2
+|-
+| [[孤勇者(王钊楚版)|孤勇者]] || 2022 || 2017-2022年视频合集
+|}
+
+===VLOG视频===
+王钊楚在2022年11月拍摄了5部Vlog视频，上传在“王钊楚祁东”YouTube频道中&lt;ref&gt;[https://youtube.com/@wangzhaochu2015 王钊楚祁东YouTube频道]，YouTube&lt;/ref&gt;，王喜明的YouTube频道对部分视频进行了转载。
+{| class="wikitable"
+! 标题 !! 日期 !! 地点
+|-
+| [[友阿广场吃德庄火锅]] || 2022年11月15日 || [[祁东]]友阿广场
+|-
+| [[画中国地图]] || 2022年11月18日 || 楚杰路
+|-
+| [[画小熊维尼和跳跳虎]] || 2022年11月20日 || 楚杰路
+|-
+| [[画王子瑜]] || 2022年11月22日 || 楚杰路
+|-
+| [[画熊出没]] || 2022年11月23日 || 楚杰路
+|}
+===游戏视频===
+[[File:王钊楚玩吃鸡（2023年2月10日）.jpg|缩略图|2023年2月10日王钊楚玩游戏截屏。]]
+据王喜明YouTube频道上传的视频，王钊楚玩过很多游戏，如'''[[w:zh:和平精英|和平精英]]'''（吃鸡）、'''[[w:zh:地铁跑酷|地铁跑酷]]'''、[[我的世界|'''我的世界''']]、'''[https://g.co/kgs/T9GU1K CarX Street]'''、'''[[w:zh:天天过马路|天天过马路]]'''、'''[[w:zh:部落冲突|部落冲突]]'''等等。游戏录屏收集在“王钊楚游戏合集”播放列表中。&lt;ref name=":0" /&gt;
+== 参考资料 ==
+&lt;references /&gt;
+[[Category:王钊楚]]
+[[Category:人物]]
+[[Category:NoCopy]]
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>48475ea4m7bplasqhzjubk1xrztds6t</sha1>
     </revision>
   </page>
   <page>
@@ -23178,6 +23478,374 @@ Guo Jianchen and Zhou Qian's official formal wedding was held at noon on Februar
 {{Navbox_Total}}</text>
       <sha1>5llmyj4fzkht77wmat98x0rypr8nctd</sha1>
     </revision>
+    <revision>
+      <id>7119</id>
+      <parentid>6798</parentid>
+      <timestamp>2023-07-05T11:32:20Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>/* 部分经历 */</comment>
+      <origin>7119</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5529" sha1="blyaffx3xvy6qacog970xq6ktonvrmt" xml:space="preserve">&lt;div class="nocopy"&gt;{{DISPLAYTITLE:王子瑜（王佳明弟弟）}}{{Celebrity|title=王子瑜(王佳明的弟弟)|image=王子瑜.jpg|caption=王子瑜吃零食，拍摄于2020年4月23日(10岁)|chinese_name=王子瑜|english_name=Wang Ziyu|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|2009-08-25}}/七月初六|hometown=湖南省衡阳市[[祁东县]]|profession=学生|height=成长中|constellation=处女座|representative_work=《[[史蒂夫的宇宙大冒险]]》
+
+《[[黑人抬棺：吃砖块]]》|nickname=芋子糖|youtube=wangziyu2009}}&lt;/div&gt;
+'''王子瑜'''，2009年8月25日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，是'''[[王佳明]]'''的弟弟，{{Age|birth=2009-08-25}}。代表作有《[[觉悟]]》（电影）、《[[沙漠骆驼]]》、《[[追光者]]》、《[[大鱼]]》、《[[海底]]》等。王子瑜于2015年-2021年就读于[[祁东县]]船山小学，2021年9月起，就读于'''祁东县成章学校初中217班'''。
+== 部分经历 ==
+2013年9月，入读祁东县金童幼儿园。
+
+2015年9月，入读祁东县船山小学。
+
+2017年8月左右，获得[[Wikipedia:zh:衡阳市|衡阳市]]象棋大赛一等奖。
+
+2019年8月7日，去[[Wikipedia:zh:衡阳市|衡阳]]配眼镜，眼镜度数150度。
+
+2020年1月，获得寒假“英语冲刺100分”课程的优秀干部奖。
+
+2020年1月，搬至[[祁东县]]三旺花园的新屋。
+
+2020年4月，开通了YouTube频道，名为[[王子瑜搞笑秀]]。
+
+2021年5月2日，录制了最新的翻唱单曲《[[海底|海底]]》，系当日[https://zh.wikipedia.org/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90 网易云音乐]排行热榜第一名。
+
+2021年6月，从祁东县船山小学毕业。
+
+2021年9月，就读于祁东县成章学校217班。
+
+2023年6月20日，参加生地会考，其中生物82分，地理77分，总分159分。
+
+==主要视频==
+截至2021年5月，王子瑜翻唱了多首歌曲和录制了多个游戏视频，下表收录了部分有代表性的视频。
+{| class="wikitable sortable"
+|+ 王子瑜视频合集
+! 标题 !! 出品年份 !! 类型 !! 时长
+|-
+| [[觉悟]] || 2019 || 微电影 || 5:54
+|-
+| [[沙漠骆驼]] || 2019 || 音乐MV || 5:34
+|-
+| [[史蒂夫的宇宙大冒险]] || 2019 || 电影 || 12:00左右
+|-
+| [[黑人抬棺：吃砖块]] || 2020 || 搞笑短片 || 0:42
+|-
+| [[孤芳自赏]] || 2020 || 音乐MV || 4:50
+|-
+| [[追光者]] || 2020 || 音乐MV || 3:52
+|-
+| [[大鱼]] || 2020 || 音乐MV || 5:12
+|-
+| [[海底]] || 2021 || 音乐MV || 4:15
+|}
+
+==参与的视频==
+以下列出了王子瑜参与的纪录片或者视频，具体视频链接可在[https://youtube.com/@jiaxingvideos 佳兴广播站YouTube频道]查看。
+{| class="wikitable sortable"
+|+ 王子瑜出镜视频列表
+! 标题 !! 年份 !! 类型 !! 时长
+|-
+| [[:File:2012年王佳明奶奶和新花伯伯谈话|王佳明奶奶和新花伯伯谈话]] || 2012 || Vlog || 0:45
+|-
+| [[:File:2012年王子瑜看火车录音和屏幕录像1|王子瑜看火车录音和屏幕录像]] || 2012 || Vlog || 14:45
+|-
+| [[:File:王子瑜和王佳明游祁东四明山溪水 20160706|王子瑜和王佳明游祁东四明山溪水]] || 2016 || Vlog || 13:18
+|-
+| [[王钊楚祁东一日游|小汤哥祁东一日游]] || 2017 || Vlog || 27:33
+|-
+| [[王钊楚游石门水库|游石门水库]] || 2017 || Vlog || 23:34
+|-
+| [[王子瑜游四明山]] || 2017 || 旅游Vlog || 3:11
+|-
+| [[奔赴梦想的路上|王佳明：奔赴梦想的路上]] || 2017 || 短片 || 3:40
+|-
+| [[祁东过水坪摘枣]] || 2017 || Vlog || 11:38
+|-
+| [[:File:国庆特别版·王钊楚(2017)|国庆特别版·王钊楚]] || 2017 || Vlog || 14:22
+|-
+| [[:File:中秋特别版·王钊楚(2017)|中秋特别版·王钊楚]] || 2017 || Vlog || 14:59
+|-
+| [[大学，我又来了|王佳明：大学，我又来了]] || 2017 || 短片 || 4:13
+|-
+| [[王钊楚电影|王钊楚(纪录片)]] || 2017 || 纪录片 || 1:02:02
+|-
+| [[湘西三日游|春节湘西三日游]] || 2018 || 旅游Vlog || 1:02:27
+|-
+| [[王钊楚视频集锦|王钊楚]] || 2018 || Vlog || 5:36
+|-
+| [[:File:【鬼畜】王佳明黑视频集锦 Wang Jiaming's Funny Videos|鬼畜：王佳明黑视频集锦]] || 2018 || 短片 || 0:42
+|-
+| [[:File:【抖音视频】2018年王子瑜搞笑视频合集1|抖音：王子瑜搞笑视频合集]] || 2018 || 抖音短视频 || 
+|-
+| [[王子瑜游水漓坊|王子瑜和郭竞兴祁东游水漓坊水上乐园]] || 2018 || Vlog || 11:36
+|-
+| [[:File:【王子瑜解说】我的世界 - 太阳系的未来基地（阋神星）1|王子瑜解说我的世界：太阳系的未来基地（阋神星）]] || 2018 || 游戏 || 8:08
+|-
+| [[2019广州之旅|广州之旅]] || 2019 || 旅游Vlog || 29:29
+|-
+| [[:File:王子瑜玩4399和变态超级玛丽20190613（しょぼんのアクション）|王子瑜玩4399和变态超级玛丽]] || 2019 || 游戏 || 12:50
+|-
+| [[2019年王喜明和王钊楚游祁东水漓坊水上乐园|王喜明、郭竞兴、王子瑜和王钊楚游祁东水漓坊水上乐园]] || 2019 || Vlog || 12:50
+|-
+| [[春天的风|王钊楚《春天的风》]] || 2020 || 儿童MV || 0:49
+|-
+| [[王钊楚超长寒假|王钊楚的2020超长寒假]] || 2020 || Vlog || 1:30:37
+|-
+| [[祁阳归阳一日游|祁阳双龙峡、归阳状元桥一日游]] || 2021 || 旅游Vlog || 9:06
+|}
+[[Category:王子瑜]]
+[[Category:人物]]
+[[Category:NoCopy]]
+{{Navbox_Total}}</text>
+      <sha1>blyaffx3xvy6qacog970xq6ktonvrmt</sha1>
+    </revision>
+    <revision>
+      <id>7120</id>
+      <parentid>7119</parentid>
+      <timestamp>2023-07-11T04:05:50Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7120</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5726" sha1="eqrnhexjj8rt1l8v5yhuq79lemmc4lc" xml:space="preserve">&lt;div class="nocopy"&gt;{{DISPLAYTITLE:王子瑜（王佳明弟弟）}}{{Celebrity|title=王子瑜(王佳明的弟弟)|image=王子瑜.jpg|caption=王子瑜吃零食，拍摄于2020年4月23日(10岁)|chinese_name=王子瑜|english_name=Wang Ziyu|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|2009-08-25}}/七月初六|hometown=湖南省衡阳市[[祁东县]]|profession=学生|height=成长中|constellation=处女座|representative_work=《[[史蒂夫的宇宙大冒险]]》
+
+《[[黑人抬棺：吃砖块]]》|nickname=芋子糖|youtube=wangziyu2009}}&lt;/div&gt;
+'''王子瑜'''，2009年8月25日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，是'''[[王佳明]]'''的弟弟，{{Age|birth=2009-08-25}}。代表作有《[[觉悟(2019年王子瑜主演微电影)|觉悟]]》（电影）、《[[沙漠骆驼(2019年王子瑜翻唱歌曲)|沙漠骆驼]]》、《[[追光者(2020年王子瑜翻唱歌曲)|追光者]]》、《[[大鱼(2020年王子瑜翻唱歌曲)|大鱼]]》、《[[海底(2021年王子瑜翻唱歌曲)|海底]]》等。王子瑜于2015年-2021年就读于[[祁东县]]船山小学，2021年9月起，就读于'''祁东县成章学校初中217班'''。
+== 部分经历 ==
+2013年9月，入读祁东县金童幼儿园。
+
+2015年9月，入读祁东县船山小学。
+
+2017年8月左右，获得[[Wikipedia:zh:衡阳市|衡阳市]]象棋大赛一等奖。
+
+2019年8月7日，去[[Wikipedia:zh:衡阳市|衡阳]]配眼镜，眼镜度数150度。
+
+2020年1月，获得寒假“英语冲刺100分”课程的优秀干部奖。
+
+2020年1月，搬至[[祁东县]]三旺花园的新屋。
+
+2020年4月，开通了YouTube频道，名为[[王子瑜搞笑秀]]。
+
+2021年5月2日，录制了最新的翻唱单曲《[[海底|海底]]》，系当日[https://zh.wikipedia.org/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90 网易云音乐]排行热榜第一名。
+
+2021年6月，从祁东县船山小学毕业。
+
+2021年9月，就读于祁东县成章学校217班。
+
+2023年6月20日，参加生地会考，其中生物82分，地理77分，总分159分。
+
+==主要视频==
+截至2021年5月，王子瑜翻唱了多首歌曲和录制了多个游戏视频，下表收录了部分有代表性的视频。
+{| class="wikitable sortable"
+|+ 王子瑜视频合集
+! 标题 !! 出品年份 !! 类型 !! 时长
+|-
+| [[觉悟]] || 2019 || 微电影 || 5:54
+|-
+| [[沙漠骆驼]] || 2019 || 音乐MV || 5:34
+|-
+| [[史蒂夫的宇宙大冒险]] || 2019 || 电影 || 12:00左右
+|-
+| [[黑人抬棺：吃砖块]] || 2020 || 搞笑短片 || 0:42
+|-
+| [[孤芳自赏]] || 2020 || 音乐MV || 4:50
+|-
+| [[追光者]] || 2020 || 音乐MV || 3:52
+|-
+| [[大鱼]] || 2020 || 音乐MV || 5:12
+|-
+| [[海底]] || 2021 || 音乐MV || 4:15
+|}
+
+==参与的视频==
+以下列出了王子瑜参与的纪录片或者视频，具体视频链接可在[https://youtube.com/@jiaxingvideos 佳兴广播站YouTube频道]查看。
+{| class="wikitable sortable"
+|+ 王子瑜出镜视频列表
+! 标题 !! 年份 !! 类型 !! 时长
+|-
+| [[:File:2012年王佳明奶奶和新花伯伯谈话|王佳明奶奶和新花伯伯谈话]] || 2012 || Vlog || 0:45
+|-
+| [[:File:2012年王子瑜看火车录音和屏幕录像1|王子瑜看火车录音和屏幕录像]] || 2012 || Vlog || 14:45
+|-
+| [[:File:王子瑜和王佳明游祁东四明山溪水 20160706|王子瑜和王佳明游祁东四明山溪水]] || 2016 || Vlog || 13:18
+|-
+| [[王钊楚祁东一日游|小汤哥祁东一日游]] || 2017 || Vlog || 27:33
+|-
+| [[王钊楚游石门水库|游石门水库]] || 2017 || Vlog || 23:34
+|-
+| [[王子瑜游四明山]] || 2017 || 旅游Vlog || 3:11
+|-
+| [[奔赴梦想的路上|王佳明：奔赴梦想的路上]] || 2017 || 短片 || 3:40
+|-
+| [[祁东过水坪摘枣]] || 2017 || Vlog || 11:38
+|-
+| [[:File:国庆特别版·王钊楚(2017)|国庆特别版·王钊楚]] || 2017 || Vlog || 14:22
+|-
+| [[:File:中秋特别版·王钊楚(2017)|中秋特别版·王钊楚]] || 2017 || Vlog || 14:59
+|-
+| [[大学，我又来了|王佳明：大学，我又来了]] || 2017 || 短片 || 4:13
+|-
+| [[王钊楚电影|王钊楚(纪录片)]] || 2017 || 纪录片 || 1:02:02
+|-
+| [[湘西三日游|春节湘西三日游]] || 2018 || 旅游Vlog || 1:02:27
+|-
+| [[王钊楚视频集锦|王钊楚]] || 2018 || Vlog || 5:36
+|-
+| [[:File:【鬼畜】王佳明黑视频集锦 Wang Jiaming's Funny Videos|鬼畜：王佳明黑视频集锦]] || 2018 || 短片 || 0:42
+|-
+| [[:File:【抖音视频】2018年王子瑜搞笑视频合集1|抖音：王子瑜搞笑视频合集]] || 2018 || 抖音短视频 || 
+|-
+| [[王子瑜游水漓坊|王子瑜和郭竞兴祁东游水漓坊水上乐园]] || 2018 || Vlog || 11:36
+|-
+| [[:File:【王子瑜解说】我的世界 - 太阳系的未来基地（阋神星）1|王子瑜解说我的世界：太阳系的未来基地（阋神星）]] || 2018 || 游戏 || 8:08
+|-
+| [[2019广州之旅|广州之旅]] || 2019 || 旅游Vlog || 29:29
+|-
+| [[:File:王子瑜玩4399和变态超级玛丽20190613（しょぼんのアクション）|王子瑜玩4399和变态超级玛丽]] || 2019 || 游戏 || 12:50
+|-
+| [[2019年王喜明和王钊楚游祁东水漓坊水上乐园|王喜明、郭竞兴、王子瑜和王钊楚游祁东水漓坊水上乐园]] || 2019 || Vlog || 12:50
+|-
+| [[春天的风|王钊楚《春天的风》]] || 2020 || 儿童MV || 0:49
+|-
+| [[王钊楚超长寒假|王钊楚的2020超长寒假]] || 2020 || Vlog || 1:30:37
+|-
+| [[祁阳归阳一日游|祁阳双龙峡、归阳状元桥一日游]] || 2021 || 旅游Vlog || 9:06
+|}
+[[Category:王子瑜]]
+[[Category:人物]]
+[[Category:NoCopy]]
+{{Navbox_Total}}</text>
+      <sha1>eqrnhexjj8rt1l8v5yhuq79lemmc4lc</sha1>
+    </revision>
+    <revision>
+      <id>7121</id>
+      <parentid>7120</parentid>
+      <timestamp>2023-07-11T04:15:15Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>/* 参与的视频 */</comment>
+      <origin>7121</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="5740" sha1="sssvzx6obkjnbnjcer4f0apgj5xr512" xml:space="preserve">&lt;div class="nocopy"&gt;{{DISPLAYTITLE:王子瑜（王佳明弟弟）}}{{Celebrity|title=王子瑜(王佳明的弟弟)|image=王子瑜.jpg|caption=王子瑜吃零食，拍摄于2020年4月23日(10岁)|chinese_name=王子瑜|english_name=Wang Ziyu|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|2009-08-25}}/七月初六|hometown=湖南省衡阳市[[祁东县]]|profession=学生|height=成长中|constellation=处女座|representative_work=《[[史蒂夫的宇宙大冒险]]》
+
+《[[黑人抬棺：吃砖块]]》|nickname=芋子糖|youtube=wangziyu2009}}&lt;/div&gt;
+'''王子瑜'''，2009年8月25日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，是'''[[王佳明]]'''的弟弟，{{Age|birth=2009-08-25}}。代表作有《[[觉悟(2019年王子瑜主演微电影)|觉悟]]》（电影）、《[[沙漠骆驼(2019年王子瑜翻唱歌曲)|沙漠骆驼]]》、《[[追光者(2020年王子瑜翻唱歌曲)|追光者]]》、《[[大鱼(2020年王子瑜翻唱歌曲)|大鱼]]》、《[[海底(2021年王子瑜翻唱歌曲)|海底]]》等。王子瑜于2015年-2021年就读于[[祁东县]]船山小学，2021年9月起，就读于'''祁东县成章学校初中217班'''。
+== 部分经历 ==
+2013年9月，入读祁东县金童幼儿园。
+
+2015年9月，入读祁东县船山小学。
+
+2017年8月左右，获得[[Wikipedia:zh:衡阳市|衡阳市]]象棋大赛一等奖。
+
+2019年8月7日，去[[Wikipedia:zh:衡阳市|衡阳]]配眼镜，眼镜度数150度。
+
+2020年1月，获得寒假“英语冲刺100分”课程的优秀干部奖。
+
+2020年1月，搬至[[祁东县]]三旺花园的新屋。
+
+2020年4月，开通了YouTube频道，名为[[王子瑜搞笑秀]]。
+
+2021年5月2日，录制了最新的翻唱单曲《[[海底|海底]]》，系当日[https://zh.wikipedia.org/wiki/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90 网易云音乐]排行热榜第一名。
+
+2021年6月，从祁东县船山小学毕业。
+
+2021年9月，就读于祁东县成章学校217班。
+
+2023年6月20日，参加生地会考，其中生物82分，地理77分，总分159分。
+
+==主要视频==
+截至2021年5月，王子瑜翻唱了多首歌曲和录制了多个游戏视频，下表收录了部分有代表性的视频。
+{| class="wikitable sortable"
+|+ 王子瑜视频合集
+! 标题 !! 出品年份 !! 类型 !! 时长
+|-
+| [[觉悟]] || 2019 || 微电影 || 5:54
+|-
+| [[沙漠骆驼]] || 2019 || 音乐MV || 5:34
+|-
+| [[史蒂夫的宇宙大冒险]] || 2019 || 电影 || 12:00左右
+|-
+| [[黑人抬棺：吃砖块]] || 2020 || 搞笑短片 || 0:42
+|-
+| [[孤芳自赏]] || 2020 || 音乐MV || 4:50
+|-
+| [[追光者]] || 2020 || 音乐MV || 3:52
+|-
+| [[大鱼]] || 2020 || 音乐MV || 5:12
+|-
+| [[海底]] || 2021 || 音乐MV || 4:15
+|}
+
+==参与的视频==
+以下列出了王子瑜参与的纪录片或者视频，具体视频链接可在[https://youtube.com/@jiaxingvideos 佳兴广播站YouTube频道]查看。
+{| class="wikitable sortable"
+|+ 王子瑜出镜视频列表
+! 标题 !! 年份 !! 类型 !! 时长
+|-
+| [[:File:2012年王佳明奶奶和新花伯伯谈话|王佳明奶奶和新花伯伯谈话]] || 2012 || Vlog || 0:45
+|-
+| [[:File:2012年王子瑜看火车录音和屏幕录像1|王子瑜看火车录音和屏幕录像]] || 2012 || Vlog || 14:45
+|-
+| [[:File:王子瑜和王佳明游祁东四明山溪水 20160706|王子瑜和王佳明游祁东四明山溪水]] || 2016 || Vlog || 13:18
+|-
+| [[王钊楚祁东一日游|小汤哥祁东一日游]] || 2017 || Vlog || 27:33
+|-
+| [[王钊楚游石门水库|游石门水库]] || 2017 || Vlog || 23:34
+|-
+| [[王子瑜游四明山]] || 2017 || 旅游Vlog || 3:11
+|-
+| [[奔赴梦想的路上|王佳明：奔赴梦想的路上]] || 2017 || 短片 || 3:40
+|-
+| [[祁东过水坪摘枣]] || 2017 || Vlog || 11:38
+|-
+| [[:File:国庆特别版·王钊楚(2017)|国庆特别版·王钊楚]] || 2017 || Vlog || 14:22
+|-
+| [[:File:中秋特别版·王钊楚(2017)|中秋特别版·王钊楚]] || 2017 || Vlog || 14:59
+|-
+| [[大学，我又来了|王佳明：大学，我又来了]] || 2017 || 短片 || 4:13
+|-
+| [[王钊楚电影|王钊楚(纪录片)]] || 2017 || 纪录片 || 1:02:02
+|-
+| [[湘西三日游|春节湘西三日游]] || 2018 || 旅游Vlog || 1:02:27
+|-
+| [[王钊楚视频集锦|王钊楚]] || 2018 || Vlog || 5:36
+|-
+| [[:File:【鬼畜】王佳明黑视频集锦 Wang Jiaming's Funny Videos|鬼畜：王佳明黑视频集锦]] || 2018 || 短片 || 0:42
+|-
+| [[:File:【抖音视频】2018年王子瑜搞笑视频合集1|抖音：王子瑜搞笑视频合集]] || 2018 || 抖音短视频 || 
+|-
+| [[王子瑜游水漓坊|王子瑜和郭竞兴祁东游水漓坊水上乐园]] || 2018 || Vlog || 11:36
+|-
+| [[:File:【王子瑜解说】我的世界 - 太阳系的未来基地（阋神星）1|王子瑜解说我的世界：太阳系的未来基地（阋神星）]] || 2018 || 游戏 || 8:08
+|-
+| [[2019广州之旅|广州之旅]] || 2019 || 旅游Vlog || 29:29
+|-
+| [[:File:王子瑜玩4399和变态超级玛丽20190613（しょぼんのアクション）|王子瑜玩4399和变态超级玛丽]] || 2019 || 游戏 || 12:50
+|-
+| [[2019年王喜明和王钊楚游祁东水漓坊水上乐园|王喜明、郭竞兴、王子瑜和王钊楚游祁东水漓坊水上乐园]] || 2019 || Vlog || 12:50
+|-
+| [[春天的风|王钊楚《春天的风》]] || 2020 || 儿童MV || 0:49
+|-
+| [[王钊楚超长寒假|王钊楚的2020超长寒假]] || 2020 || Vlog || 1:30:37
+|-
+| [[祁阳归阳一日游|祁阳双龙峡、归阳状元桥一日游]] || 2021 || 旅游Vlog || 9:06
+|}
+[[Category:王子瑜]]
+[[Category:人物]]
+[[Category:NoCopy]]
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>sssvzx6obkjnbnjcer4f0apgj5xr512</sha1>
+    </revision>
   </page>
   <page>
     <title>文件:王子瑜翻唱《沙漠骆驼》超清宽屏完整版MV</title>
@@ -24180,6 +24848,1247 @@ __索引__
 __索引__
 {{Navbox_Total}}</text>
       <sha1>8gebi5slts3mcwz553ebz0rq1hqk4y6</sha1>
+    </revision>
+    <revision>
+      <id>7122</id>
+      <parentid>5109</parentid>
+      <timestamp>2023-07-11T04:20:07Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>/* 佳兴广播站代表作品 */</comment>
+      <origin>7122</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6980" sha1="3jhh6jkwb2jp92a4qspb1pux32exz5d" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=研究生|college=[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[Wikipedia:zh:湖南省|湖南]][[Wikipedia:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[wikipedia:Gaokao|全国高考]]考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，通过2020年全国硕士研究生招生考试考入桂林理工大学计算机科学与技术专业攻读硕士学位。代表作品有《[[小苹果]]》（2014）,《[[曾经的你]]》，《[[十九岁]]》，《[[平凡的一天]]》等。2022年9月获得[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[https://zh.wikipedia.org/wiki/%E8%80%83%E7%A0%94 全国硕士研究生招生考试]，报考院校为[[Wikipedia:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]研究生国家奖学金。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+&lt;references /&gt;
+__索引__
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>3jhh6jkwb2jp92a4qspb1pux32exz5d</sha1>
+    </revision>
+    <revision>
+      <id>7123</id>
+      <parentid>7122</parentid>
+      <timestamp>2023-07-11T04:23:04Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>/* 佳兴广播站代表作品 */</comment>
+      <origin>7123</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6986" sha1="og6cn3kmamxcs8ogzcdfeekp4oe8lra" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=研究生|college=[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[Wikipedia:zh:湖南省|湖南]][[Wikipedia:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[wikipedia:Gaokao|全国高考]]考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，通过2020年全国硕士研究生招生考试考入桂林理工大学计算机科学与技术专业攻读硕士学位。代表作品有《[[小苹果]]》（2014）,《[[曾经的你]]》，《[[十九岁]]》，《[[平凡的一天]]》等。2022年9月获得[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[https://zh.wikipedia.org/wiki/%E8%80%83%E7%A0%94 全国硕士研究生招生考试]，报考院校为[[Wikipedia:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]研究生国家奖学金。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>og6cn3kmamxcs8ogzcdfeekp4oe8lra</sha1>
+    </revision>
+    <revision>
+      <id>7124</id>
+      <parentid>7123</parentid>
+      <timestamp>2023-07-11T04:33:29Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7124</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7123" sha1="6o8iplybb167qu5l91j78owlofg24mk" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[Wikipedia:zh:湖南省|湖南]][[Wikipedia:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[wikipedia:Gaokao|全国高考]]考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，通过2020年全国硕士研究生招生考试考入桂林理工大学计算机科学与技术专业攻读硕士学位。代表作品有《[[小苹果]]》（2014）,《[[曾经的你]]》，《[[十九岁]]》，《[[平凡的一天]]》等。2022年9月获得[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[https://zh.wikipedia.org/wiki/%E8%80%83%E7%A0%94 全国硕士研究生招生考试]，报考院校为[[Wikipedia:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]研究生国家奖学金。
+
+2023年6月，从桂林理工大学毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>6o8iplybb167qu5l91j78owlofg24mk</sha1>
+    </revision>
+    <revision>
+      <id>7125</id>
+      <parentid>7124</parentid>
+      <timestamp>2023-07-11T04:45:30Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7125</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7203" sha1="tqda2jh8225rscp8hex0tf3k963l8uf" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[[w:zh:桂林理工大学|桂林理工大学]]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[Wikipedia:zh:湖南省|湖南]][[Wikipedia:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[wikipedia:Gaokao|全国高考]]考入[https://zh.wikipedia.org/wiki/%E6%A1%82%E6%9E%97%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6 桂林理工大学]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，通过2020年考研考入桂林理工大学计算机科学与技术专业攻读硕士学位。代表作品有《[[文件:王佳明&amp;郭竞兴 - 小苹果舞蹈（高清修复版）|小苹果]]》（2014）,《[[文件:俩小伙实力翻唱《曾经的你》，一开口就跪下了！|曾经的你]]》，《[[文件:【翻唱】十九岁（Cover赵雷）|十九岁]]》，《[[文件:【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）|平凡的一天]]》等。2022年9月获得[[w:zh:桂林理工大学|桂林理工大学]]国家奖学金。2023年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[Wikipedia:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[[w:zh:桂林理工大学|桂林理工大学]]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[[w:zh:考研|全国硕士研究生招生考试]]，报考院校为[[w:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至2018年兴建的[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[[w:zh:桂林理工大学|桂林理工大学]]研究生国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+2023年6月，从[[w:zh:桂林理工大学|桂林理工大学]]毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>tqda2jh8225rscp8hex0tf3k963l8uf</sha1>
+    </revision>
+    <revision>
+      <id>7127</id>
+      <parentid>7125</parentid>
+      <timestamp>2023-07-11T04:54:30Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7127</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7101" sha1="12cix6pcyhch9e4syypmx8m4zy5j9jw" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[[w:zh:桂林理工大学|桂林理工大学]]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[https://youtu.be/rSxIV7jzhFs 王子瑜游四明山]》
+
+《[https://youtu.be/KsFXqKAxbYA 奶奶的一生]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[w:zh:湖南省|湖南]][[w:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[w:Gaokao|全国高考]]考入[[w:zh:桂林理工大学|桂林理工大学]]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，2020年通过考研入读桂林理工大学计算机科学与技术专业攻读硕士学位。2023年7月，入职[[w:zh:中国联通|中国联通]]湖南长沙分公司，担任软件设计师。
+
+代表作品有《[[文件:王佳明&amp;郭竞兴 - 小苹果舞蹈（高清修复版）|小苹果]]》（2014）,《[[文件:俩小伙实力翻唱《曾经的你》，一开口就跪下了！|曾经的你]]》，《[[文件:【翻唱】十九岁（Cover赵雷）|十九岁]]》，《[[文件:【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）|平凡的一天]]》等。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[[w:zh:桂林理工大学|桂林理工大学]]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[[w:zh:考研|全国硕士研究生招生考试]]，报考院校为[[w:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至2018年兴建的[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[[w:zh:桂林理工大学|桂林理工大学]]研究生国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+2023年6月，从[[w:zh:桂林理工大学|桂林理工大学]]毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>12cix6pcyhch9e4syypmx8m4zy5j9jw</sha1>
+    </revision>
+    <revision>
+      <id>7128</id>
+      <parentid>7127</parentid>
+      <timestamp>2023-07-11T05:00:38Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <comment>/* 生平经历 */</comment>
+      <origin>7128</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7204" sha1="0l407i4eezw7dxxes7sotjt8ggdkb7r" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[[w:zh:桂林理工大学|桂林理工大学]]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[https://youtu.be/rSxIV7jzhFs 王子瑜游四明山]》
+
+《[https://youtu.be/KsFXqKAxbYA 奶奶的一生]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[w:zh:湖南省|湖南]][[w:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[w:Gaokao|全国高考]]考入[[w:zh:桂林理工大学|桂林理工大学]]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，2020年通过考研入读桂林理工大学计算机科学与技术专业攻读硕士学位。2023年7月，入职[[w:zh:中国联通|中国联通]]湖南长沙分公司，担任软件设计师。
+
+代表作品有《[[文件:王佳明&amp;郭竞兴 - 小苹果舞蹈（高清修复版）|小苹果]]》（2014）,《[[文件:俩小伙实力翻唱《曾经的你》，一开口就跪下了！|曾经的你]]》，《[[文件:【翻唱】十九岁（Cover赵雷）|十九岁]]》，《[[文件:【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）|平凡的一天]]》等。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[[w:zh:桂林理工大学|桂林理工大学]]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[[w:zh:考研|全国硕士研究生招生考试]]，报考院校为[[w:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至2018年兴建的[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[[w:zh:桂林理工大学|桂林理工大学]]研究生国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+2023年5月，参加第二届全国大学生大数据分析技术技能大赛，并获得一等奖。
+
+2023年6月，从[[w:zh:桂林理工大学|桂林理工大学]]毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>0l407i4eezw7dxxes7sotjt8ggdkb7r</sha1>
+    </revision>
+    <revision>
+      <id>7129</id>
+      <parentid>7128</parentid>
+      <timestamp>2023-07-11T05:24:09Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7129</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7202" sha1="ez4ku8ce1vn57gh35bocl67qjqux8uz" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[[w:zh:桂林理工大学|桂林理工大学]]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[https://youtu.be/rSxIV7jzhFs 王子瑜游四明山]》
+
+《[https://youtu.be/KsFXqKAxbYA 奶奶的一生]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[w:zh:湖南省|湖南]][[w:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[w:Gaokao|全国高考]]考入[[w:zh:桂林理工大学|桂林理工大学]]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，2020年通过考研入读桂林理工大学计算机科学与技术专业攻读硕士学位。2023年7月，入职[[w:zh:中国联通|中国联通]]湖南长沙分公司，担任软件设计师。代表作品有《[[文件:王佳明&amp;郭竞兴 - 小苹果舞蹈（高清修复版）|小苹果]]》（2014）,《[[文件:俩小伙实力翻唱《曾经的你》，一开口就跪下了！|曾经的你]]》，《[[文件:【翻唱】十九岁（Cover赵雷）|十九岁]]》，《[[文件:【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）|平凡的一天]]》等。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[[w:zh:桂林理工大学|桂林理工大学]]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[[w:zh:考研|全国硕士研究生招生考试]]，报考院校为[[w:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至2018年兴建的[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[[w:zh:桂林理工大学|桂林理工大学]]研究生国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+2023年5月，参加第二届全国大学生大数据分析技术技能大赛，并获得一等奖。
+
+2023年6月，从[[w:zh:桂林理工大学|桂林理工大学]]毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>ez4ku8ce1vn57gh35bocl67qjqux8uz</sha1>
+    </revision>
+    <revision>
+      <id>7130</id>
+      <parentid>7129</parentid>
+      <timestamp>2023-07-11T05:28:24Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7130</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7201" sha1="srfq5tktopr44402ybfmq8mf2li981v" xml:space="preserve">{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[[w:zh:桂林理工大学|桂林理工大学]]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖
+
+2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[https://youtu.be/rSxIV7jzhFs 王子瑜游四明山]》
+
+《[https://youtu.be/KsFXqKAxbYA 奶奶的一生]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[w:zh:湖南省|湖南]][[w:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[w:Gaokao|全国高考]]考入[[w:zh:桂林理工大学|桂林理工大学]]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，2020年通过考研入读桂林理工大学计算机科学与技术专业攻读硕士学位。2023年7月，入职[[w:zh:中国联通|中国联通]]湖南长沙分公司，担任软件设计师。代表作品有《[[文件:王佳明&amp;郭竞兴 - 小苹果舞蹈（高清修复版）|小苹果]]》（2014）,《[[文件:俩小伙实力翻唱《曾经的你》，一开口就跪下了！|曾经的你]]》，《[[文件:【翻唱】十九岁（Cover赵雷）|十九岁]]》，《[[文件:【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）|平凡的一天]]》等。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[[w:zh:桂林理工大学|桂林理工大学]]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[[w:zh:考研|全国硕士研究生招生考试]]，报考院校为[[w:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至2018年兴建的[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[[w:zh:桂林理工大学|桂林理工大学]]研究生国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+2023年5月，参加第二届全国大学生大数据分析技术技能大赛，并获得一等奖。
+
+2023年6月，从[[w:zh:桂林理工大学|桂林理工大学]]毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>srfq5tktopr44402ybfmq8mf2li981v</sha1>
+    </revision>
+    <revision>
+      <id>7131</id>
+      <parentid>7130</parentid>
+      <timestamp>2023-07-11T05:38:06Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7131</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="7236" sha1="foztckq7dn19k9u5vlu3rwppirk4lzz" xml:space="preserve">&lt;div class="nocopy"&gt;{{Celebrity|title=王佳明|image=王佳明.jpg|chinese_name=王佳明|english_name=Wang Jiaming|gender=男|nationality={{China}}|language=汉语（普通话、[[祁东]]方言）、英语|minzu=汉|birthplace=湖南省衡阳市[[祁东县]]|birthday={{Birthdate|1999-09-24}}/八月十五|hometown=湖南省衡阳市[[祁东县]]|profession=软件设计工程师|college=[[w:zh:桂林理工大学|桂林理工大学]]|height=173cm|weight=60kg|constellation=天秤座|achievements=2018年“互联网+”创新大赛一等奖&lt;br/&gt;2022年桂林理工大学研究生国家奖学金|email=1638382633@qq.com|caption=王佳明在拍摄《平凡的一天》MV。|representative_work=《[https://youtu.be/rSxIV7jzhFs 王子瑜游四明山]》&lt;br/&gt;《[https://youtu.be/KsFXqKAxbYA 奶奶的一生]》|political_status=中共党员|qq=1638382633|wechat=dgdgwang}}&lt;/div&gt;
+'''王佳明'''（英文名：'''''Wang Jiaming'''''），1999年9月24日出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，籍贯'''[[w:zh:湖南省|湖南]][[w:zh:衡阳市|衡阳]]'''，{{Age|birth=1999-09-24}}。王佳明从小在[[祁东县]]长大，表哥[[王喜明]]和表姐王婷，2009年王佳明的弟弟[[王子瑜]]出生。王佳明于2016年通过[[w:Gaokao|全国高考]]考入[[w:zh:桂林理工大学|桂林理工大学]]就读机械工程及其自动化专业，2020年1月入住于2018年兴建的[[祁东县]]三旺花园的新屋，2020年通过考研入读桂林理工大学计算机科学与技术专业攻读硕士学位。2023年7月，入职[[w:zh:中国联通|中国联通]]湖南长沙分公司，担任软件设计师。
+
+代表作品有《[[文件:王佳明&amp;郭竞兴 - 小苹果舞蹈（高清修复版）|小苹果]]》（2014）,《[[文件:俩小伙实力翻唱《曾经的你》，一开口就跪下了！|曾经的你]]》，《[[文件:【翻唱】十九岁（Cover赵雷）|十九岁]]》，《[[文件:【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）|平凡的一天]]》等。
+
+==生平经历==
+1999年9月24日，王佳明出生于[[w:zh:湖南|湖南省]]衡阳市[[祁东县]]，家住在楚杰路枣树园市场对面。
+
+2004年9月，王佳明入读祁东县金娃小学。
+
+2006年9月，入读祁东县第七小学。
+
+2010年9月，入读祁东县楚杰中学。
+
+2011年9月，由于楚杰中学改办为船山实验小学，选择转读祁东县洪桥镇二中。
+
+2013年9月，入读祁东县二中。
+
+2016年6月，参加全国高考（全国高等学校统一招生考试）。
+
+2016年9月，考入[[w:zh:桂林理工大学|桂林理工大学]]，开始攻读机械工程及其自动化专业学士学位。
+
+2017年12月，通过全国大学生英语四级考试。
+
+2017年12月，参加广西大学生机械设计大赛，荣获一等奖。
+
+2018年5月，参加全国大学生互联网+创新大赛并荣获一等奖。
+
+2019年6月，通过全国大学生英语六级考试。
+
+2019年12月，参加[[w:zh:考研|全国硕士研究生招生考试]]，报考院校为[[w:zh:湖南省|湖南]]师范大学。
+
+2020年1月，搬至2018年兴建的[[祁东县]]三旺花园的新屋。
+
+2020年6月，从桂林理工大学毕业。
+
+2020年9月，开始攻读桂林理工大学计算机科学与技术学位硕士学位。
+
+2021年5月21日，接种第一针新冠疫苗。
+
+2022年9月，获得[[w:zh:桂林理工大学|桂林理工大学]]研究生国家奖学金&lt;ref&gt;易你为则 | 荣获国家奖学金，这几位研究生学长不简单！https://mp.weixin.qq.com/s/dV9CuBjGZ87FaviTPuL2qw&lt;/ref&gt;。
+
+2023年5月，参加第二届全国大学生大数据分析技术技能大赛，并获得一等奖。
+
+2023年6月，从[[w:zh:桂林理工大学|桂林理工大学]]毕业，同年7月，入职中国联通湖南长沙分公司，担任软件设计师。
+
+==入党经历==
+2016年10月，提交入党申请书，因为年龄不够18岁被拒绝。
+
+2017年10月，第二次提交入党申请书，并成功当选为入党积极分子，却因为2018年2月挂科，被取消入党积极分子的资格。
+
+2020年10月，第三次提交入党申请书，却在投票和谈话环节落选。
+
+2021年3月，第四次提交入党申请书，并成功选拔为入党积极分子，预计于2021年12月选拔为中共预备党员。
+
+==科研成果==
+
+（1）SCI论文: Wang J, Xie X, Cheng X, et al. Improved Density Peaking Algorithm for Community Detection Based on Graph Representation Learning[J]. Comput. Syst. Sci. Eng., 2022, 43(3): 997-1008.
+
+（2）中文核心论文: 陈超泉, 王佳明, 谢晓兰. 融合流形距离与标签传播的改进密度峰值聚类[J]. 科学技术与工程, 2022, 22(10): 4011-4018.
+
+（3） 英文普通刊物论文：Wang J, Xie X, Wang B. CTO ORDER CLUSTERING FOR ELECTRONIC PRODUCTS BASED ON WORD VECTORS[J]. IETI Transactions on Engineering Research and Practice, 2022, 6(1): 29-37.
+
+（4）发明专利：专利号：CN202210940841.5 专利状态：申请并受理 专利名称：一种基于LOF算法的个性化定制订单异常检测系统
+
+==科研项目==
+
+（1）参与项目: 基于GCN-LSTM的多传感器数据融合研究 省级项目
+
+（2）参与项目: 面向OPM模式的电子智造业智慧服务平台 省级项目
+
+==比赛获奖==
+
+（1）第二届广西大学生人工智能设计大赛大数据赛道  一等奖
+
+（2）第三届广西大学生人工智能设计大赛深度学习赛道  三等奖
+
+（3）第六届“亿学杯”全国大学生英语词汇及综合能力大赛 省级一等奖
+
+（4）第三届全国高校创新英语挑战活动英语翻译赛 三等奖
+
+（5）全国大学生人工智能知识竞赛 一等奖
+
+（6）第九届“泰迪杯”数据挖掘挑战赛 广西壮族自治区省级三等奖
+
+==佳兴广播站代表作品==
+===MV类===
+按时间顺序：
+====2017年====
+[https://www.youtube.com/watch?v=9KgD3SvID14&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=14 【自制MV】曾经的你]
+====2018年====
+[https://www.youtube.com/watch?v=Q7OY3MnFQZY&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=17 【翻唱】十九岁（Cover赵雷）]
+====2019年====
+[https://www.youtube.com/watch?v=idtZSOU0tsU&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=29 【自制MV】彩虹下面（cover赵雷）]
+====2020年====
+[https://www.youtube.com/watch?v=VTDv7xv0w_M&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=33 【自制MV】另一种乡愁]
+
+[https://www.youtube.com/watch?v=_B5mJFuWMjA&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=36 【翻唱MV】《平凡的一天》Ordinary Day（cover 毛不易）]
+
+===舞蹈类===
+按时间顺序：
+
+====2014年====
+[https://youtu.be/RujOVzzXVDM 《江南Style》（骑马舞）]
+
+[https://www.youtube.com/watch?v=9lF6CuS08dk&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=2 《小苹果》]
+
+[https://www.youtube.com/watch?v=yuMnBYaXuh0&amp;list=PLr2zN-4ce5vlUQgA7-hvpdSk3DBjR8SJ2&amp;index=3 《小苹果2》]
+
+===纪录视频(Vlog)类===
+《[[王子瑜游四明山]]》
+
+《[[奶奶的一生]]》
+
+《[[:File:【王佳明】关于阳朔的vlog|关于阳朔的vlog‎]]》
+
+[[Category:佳兴广播站]]
+[[Category:王佳明]]
+[[Category:祁东]]
+[[Category:人物]]
+==参考资料==
+&lt;references /&gt;
+{{Navbox_Total|ShouldIndex=1}}</text>
+      <sha1>foztckq7dn19k9u5vlu3rwppirk4lzz</sha1>
     </revision>
   </page>
   <page>
@@ -50994,6 +52903,140 @@ dev:PreloadFileDescription.js</text>
 }</text>
       <sha1>al7uc8d4l38el6bsy0ckjlfjyudrvgi</sha1>
     </revision>
+    <revision>
+      <id>7091</id>
+      <parentid>6834</parentid>
+      <timestamp>2023-07-03T09:15:30Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7091</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="994" sha1="ea5h559t4mywuo2pylq5z2yi4320cdp" xml:space="preserve">/* 这里放置的CSS将应用于所有皮肤 */
+/* 1.禁止复制，使用方式：在div标签中加入class="nocopy" */
+.nocopy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* 2. Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+body {
+    font-size: 16px; 
+}</text>
+      <sha1>ea5h559t4mywuo2pylq5z2yi4320cdp</sha1>
+    </revision>
+    <revision>
+      <id>7092</id>
+      <parentid>7091</parentid>
+      <timestamp>2023-07-03T09:19:29Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7092</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="994" sha1="mbw633w0lpe50ujs7aos22fd4w2u52w" xml:space="preserve">/* 这里放置的CSS将应用于所有皮肤 */
+/* 1.禁止复制，使用方式：在div标签中加入class="nocopy" */
+.nocopy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* 2. Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+body {
+    font-size: 20px; 
+}</text>
+      <sha1>mbw633w0lpe50ujs7aos22fd4w2u52w</sha1>
+    </revision>
+    <revision>
+      <id>7094</id>
+      <parentid>7092</parentid>
+      <timestamp>2023-07-03T09:25:27Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7094</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="962" sha1="al7uc8d4l38el6bsy0ckjlfjyudrvgi" xml:space="preserve">/* 这里放置的CSS将应用于所有皮肤 */
+/* 1.禁止复制，使用方式：在div标签中加入class="nocopy" */
+.nocopy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* 2. Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}</text>
+      <sha1>al7uc8d4l38el6bsy0ckjlfjyudrvgi</sha1>
+    </revision>
   </page>
   <page>
     <title>文件:Site-background-dark</title>
@@ -51730,6 +53773,21 @@ __无新段落链接__
       <format>text/x-wiki</format>
       <text bytes="288" sha1="nyvifoe4359mfsfwltdnubxe8k5ijqs" xml:space="preserve">&lt;div style="color: red"&gt; '''提示: '''&lt;/div&gt;欢迎访问{{SITENAME}}。当前您处于未登录状态，只能查看网站内容，无法进行编辑操作。如需编辑网站内容，请先点击[[Special:CreateAccount|此处]]创建账户。感谢您对[[佳兴广播站]]的支持。</text>
       <sha1>nyvifoe4359mfsfwltdnubxe8k5ijqs</sha1>
+    </revision>
+    <revision>
+      <id>7118</id>
+      <parentid>6043</parentid>
+      <timestamp>2023-07-04T01:30:44Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7118</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="290" sha1="rknjb745bhwru1xy4m9gc0mgxcjr1vc" xml:space="preserve">&lt;span style="color: red"&gt; '''提示: '''&lt;/span&gt;欢迎访问{{SITENAME}}。当前您处于未登录状态，只能查看网站内容，无法进行编辑操作。如需编辑网站内容，请先点击[[Special:CreateAccount|此处]]创建账户。感谢您对[[佳兴广播站]]的支持。</text>
+      <sha1>rknjb745bhwru1xy4m9gc0mgxcjr1vc</sha1>
     </revision>
   </page>
   <page>
@@ -79494,6 +81552,924 @@ return p</text>
     }
 }</text>
       <sha1>7bbvyyfmhlolfpsyajw71p496injve2</sha1>
+    </revision>
+    <revision>
+      <id>7093</id>
+      <parentid>6746</parentid>
+      <timestamp>2023-07-03T09:25:13Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7093</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="795" sha1="f8rw9a89abb8jlk62s9bheeka0jru34" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-content-text {
+  font-size: 1em;
+}</text>
+      <sha1>f8rw9a89abb8jlk62s9bheeka0jru34</sha1>
+    </revision>
+    <revision>
+      <id>7095</id>
+      <parentid>7093</parentid>
+      <timestamp>2023-07-03T09:29:47Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7095</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="795" sha1="hjl5s4rzzeratbo5bce6jilvu1ut2uh" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+#bodyContent {
+  font-size: 0.875em;
+}</text>
+      <sha1>hjl5s4rzzeratbo5bce6jilvu1ut2uh</sha1>
+    </revision>
+    <revision>
+      <id>7096</id>
+      <parentid>7095</parentid>
+      <timestamp>2023-07-03T09:33:01Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7096</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="874" sha1="mwx9irv3k4efsm2syl4bol5dr6hcgli" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+#mw-content-text {
+  font-size: 16px;
+}
+
+.mw-content-text {
+  font-size: 20em;
+}
+
+#bodyContent {
+  font-size: 30em;
+}</text>
+      <sha1>mwx9irv3k4efsm2syl4bol5dr6hcgli</sha1>
+    </revision>
+    <revision>
+      <id>7097</id>
+      <parentid>7096</parentid>
+      <timestamp>2023-07-03T09:34:22Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7097</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="796" sha1="2llm1o4q2z098tk1u7ki5wrsk0iid2h" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+#mw-content-text {
+  font-size: 16px;
+}</text>
+      <sha1>2llm1o4q2z098tk1u7ki5wrsk0iid2h</sha1>
+    </revision>
+    <revision>
+      <id>7098</id>
+      <parentid>7097</parentid>
+      <timestamp>2023-07-03T09:36:11Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7098</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="796" sha1="mdmkncaahsyjqvvip7spuxtzo1syi2d" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+#mw-content-text {
+  font-size: 40px;
+}</text>
+      <sha1>mdmkncaahsyjqvvip7spuxtzo1syi2d</sha1>
+    </revision>
+    <revision>
+      <id>7099</id>
+      <parentid>7098</parentid>
+      <timestamp>2023-07-03T09:38:24Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7099</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="796" sha1="spqvwl17hgix1kwg0htnwjvbkqjlxlb" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-content-text {
+  font-size: 40px;
+}</text>
+      <sha1>spqvwl17hgix1kwg0htnwjvbkqjlxlb</sha1>
+    </revision>
+    <revision>
+      <id>7100</id>
+      <parentid>7099</parentid>
+      <timestamp>2023-07-03T10:00:47Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7100</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="788" sha1="eh9v09ti0uq600ww1e9vv1f3ao81v0x" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+  font-size: 40px;
+}</text>
+      <sha1>eh9v09ti0uq600ww1e9vv1f3ao81v0x</sha1>
+    </revision>
+    <revision>
+      <id>7101</id>
+      <parentid>7100</parentid>
+      <timestamp>2023-07-03T10:01:27Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7101</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="804" sha1="1byif3vri630f6wsy1frxsubs8qe0oz" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body #mw-content-text{
+  font-size: 16px;
+}</text>
+      <sha1>1byif3vri630f6wsy1frxsubs8qe0oz</sha1>
+    </revision>
+    <revision>
+      <id>7102</id>
+      <parentid>7101</parentid>
+      <timestamp>2023-07-03T10:02:31Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7102</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="787" sha1="3xfs2pp9t11aqkjcz5zhhpkgg4kx8v6" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body{
+  font-size: 16px;
+}</text>
+      <sha1>3xfs2pp9t11aqkjcz5zhhpkgg4kx8v6</sha1>
+    </revision>
+    <revision>
+      <id>7103</id>
+      <parentid>7102</parentid>
+      <timestamp>2023-07-03T10:06:51Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7103</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="788" sha1="7556b21tjcwrihmcf25bodtj0b438yw" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+  font-size: 20px;
+}</text>
+      <sha1>7556b21tjcwrihmcf25bodtj0b438yw</sha1>
+    </revision>
+    <revision>
+      <id>7104</id>
+      <parentid>7103</parentid>
+      <timestamp>2023-07-03T10:07:52Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7104</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="788" sha1="p6zhea2shakoch6axecrj56viw1rjdu" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+  font-size: 16px;
+}</text>
+      <sha1>p6zhea2shakoch6axecrj56viw1rjdu</sha1>
+    </revision>
+    <revision>
+      <id>7105</id>
+      <parentid>7104</parentid>
+      <timestamp>2023-07-03T10:09:06Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7105</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="788" sha1="5kx5prs1akxldyvzjog94ft4zp17gzw" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+  font-size: 100%;
+}</text>
+      <sha1>5kx5prs1akxldyvzjog94ft4zp17gzw</sha1>
+    </revision>
+    <revision>
+      <id>7106</id>
+      <parentid>7105</parentid>
+      <timestamp>2023-07-03T10:16:29Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7106</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="788" sha1="4jloaupye2tg5cieehkh14ou5eaihkk" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+  font-size: 120%;
+}</text>
+      <sha1>4jloaupye2tg5cieehkh14ou5eaihkk</sha1>
+    </revision>
+    <revision>
+      <id>7107</id>
+      <parentid>7106</parentid>
+      <timestamp>2023-07-03T10:30:43Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7107</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="807" sha1="crqw904mhm3kxfgbjs5s4avjrnuiwjz" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body .mw-panel .mw-head {
+  font-size: 120%;
+}</text>
+      <sha1>crqw904mhm3kxfgbjs5s4avjrnuiwjz</sha1>
+    </revision>
+    <revision>
+      <id>7108</id>
+      <parentid>7107</parentid>
+      <timestamp>2023-07-03T10:33:56Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7108</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="807" sha1="8nbwexa6t4ewkqby930p6ll7c2fsf79" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body #mw-panel #mw-head {
+  font-size: 120%;
+}</text>
+      <sha1>8nbwexa6t4ewkqby930p6ll7c2fsf79</sha1>
+    </revision>
+    <revision>
+      <id>7109</id>
+      <parentid>7108</parentid>
+      <timestamp>2023-07-03T10:35:17Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7109</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="831" sha1="g49dte07gva8b0dhq1nbtvqyhpytah4" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+  font-size: 120%;
+}
+
+#mw-panel #mw-head {
+  font-size: 120%;
+}</text>
+      <sha1>g49dte07gva8b0dhq1nbtvqyhpytah4</sha1>
+    </revision>
+    <revision>
+      <id>7110</id>
+      <parentid>7109</parentid>
+      <timestamp>2023-07-03T10:38:41Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7110</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="802" sha1="30o759ph1yg4p2ogn6wskf5nrd2wjbj" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body .mw-list-item {
+  font-size: 120%;
+}</text>
+      <sha1>30o759ph1yg4p2ogn6wskf5nrd2wjbj</sha1>
+    </revision>
+    <revision>
+      <id>7111</id>
+      <parentid>7110</parentid>
+      <timestamp>2023-07-03T10:52:24Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7111</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="823" sha1="99dwsympp2761zm8i4rp7hdeadgiudn" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body {
+	font-size: 120%;
+}
+.mw-list-item {
+	font-size: 120%;
+}</text>
+      <sha1>99dwsympp2761zm8i4rp7hdeadgiudn</sha1>
+    </revision>
+    <revision>
+      <id>7112</id>
+      <parentid>7111</parentid>
+      <timestamp>2023-07-03T10:54:53Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7112</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="815" sha1="ftj79yqge8tv5u553osivc77ltr52ee" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body-content .mw-page-title-main {
+	font-size: 120%;
+}</text>
+      <sha1>ftj79yqge8tv5u553osivc77ltr52ee</sha1>
+    </revision>
+    <revision>
+      <id>7113</id>
+      <parentid>7112</parentid>
+      <timestamp>2023-07-03T11:00:25Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7113</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="853" sha1="k55rcs2cea81u0y66f973ba7kp4pva5" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body-content#mw-content-text {
+	font-size: 120%;
+}
+.mw-page-title-main {
+	font-size: 120%;
+}</text>
+      <sha1>k55rcs2cea81u0y66f973ba7kp4pva5</sha1>
+    </revision>
+    <revision>
+      <id>7114</id>
+      <parentid>7113</parentid>
+      <timestamp>2023-07-03T11:02:39Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7114</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="837" sha1="krxo3u65q91osg9hmwbftl5o5zetsuq" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.mw-body-content {
+	font-size: 120%;
+}
+.mw-page-title-main {
+	font-size: 120%;
+}</text>
+      <sha1>krxo3u65q91osg9hmwbftl5o5zetsuq</sha1>
+    </revision>
+    <revision>
+      <id>7115</id>
+      <parentid>7114</parentid>
+      <timestamp>2023-07-03T11:07:54Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7115</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="827" sha1="f0x47s6r7h40tmyyrvw96vuy4ponsf3" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.vector-body {
+	font-size: 120%;
+}
+.firstHeading {
+	font-size: 120%;
+}</text>
+      <sha1>f0x47s6r7h40tmyyrvw96vuy4ponsf3</sha1>
+    </revision>
+    <revision>
+      <id>7116</id>
+      <parentid>7115</parentid>
+      <timestamp>2023-07-03T11:09:12Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7116</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="841" sha1="lkegy1cql3gcowjkep26fn4ldhlc6x3" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.vector-body {
+	font-size: 120%;
+}
+.firstHeading {
+	font-size: calc(1.8em * 120%);
+}</text>
+      <sha1>lkegy1cql3gcowjkep26fn4ldhlc6x3</sha1>
+    </revision>
+    <revision>
+      <id>7117</id>
+      <parentid>7116</parentid>
+      <timestamp>2023-07-03T11:16:22Z</timestamp>
+      <contributor>
+        <username>Guojingxing0905</username>
+        <id>2</id>
+      </contributor>
+      <minor/>
+      <origin>7117</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="836" sha1="ry8hqybcy9gq4c6vyhrqoisbbdwnciq" xml:space="preserve">/* 这里的任何CSS将为使用Vector皮肤的用户加载 */
+/* Infobox styles */
+.infobox {
+    /* Desktop style */
+    float: right; /* Make the infobox float to the right */
+    width: 25%; /* Set the infobox width to 25% of the container width */
+    margin-left: 1em; /* Add some space to the left of the infobox */
+    margin-bottom: 1em; /* Add some space below the infobox */
+}
+
+/* Responsive style for mobile devices */
+@media screen and (max-width: 767px) {
+    .infobox {
+        float: none; /* Disable floating on mobile devices */
+        width: 100%; /* Set the infobox width to 100% of the container width */
+        margin-left: 0; /* Remove the left margin */
+        margin-bottom: 1em; /* Add some space below the infobox */
+    }
+}
+
+.vector-body {
+	font-size: 100%;
+}
+h1 {
+	font-size: calc(1.8em / 0.8 * 100%);
+}</text>
+      <sha1>ry8hqybcy9gq4c6vyhrqoisbbdwnciq</sha1>
     </revision>
   </page>
   <page>
